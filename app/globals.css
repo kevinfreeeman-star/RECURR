@@ -4,3 +4,15 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.marquee-track{transform:none}.email-stage:hover .email-front{transform:rotate(-7deg)}}
 .logo-mark{width:32px;height:32px;stroke-width:2.5}.art-spark{width:30px;height:30px}.large-asterisk{width:72px;height:72px;stroke-width:1.5}
 @media(max-width:600px){.logo-mark{width:29px;height:29px}.art-spark{width:25px;height:25px}}
+
+/* Strong editorial headings and hand-painted emphasis. */
+.hero h1,h2,.service-row h3,.problem-bottom h3,.post-purchase h3,
+.process-step h3,.project-plan h3,.case-studies h3,.about-manifesto h3,
+.report-summary h3,.why-list h4{font-weight:700}
+.brush-word{position:relative;display:inline-block;isolation:isolate;white-space:nowrap}
+.brush-word>svg{position:absolute;left:-1%;bottom:-.14em;width:102%;height:.22em;fill:var(--orange);pointer-events:none;z-index:-1}
+.hero h1{font-size:clamp(52px,5.5vw,74px)}
+.hero h1>.brush-word{color:var(--ink)}
+@media(max-width:1100px){.hero h1{font-size:58px}}
+@media(max-width:800px){.hero h1{font-size:48px}}
+@media(max-width:600px){.hero h1{font-size:clamp(42px,11.3vw,64px);letter-spacing:-2.7px}.brush-word>svg{bottom:-.12em}}
