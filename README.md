@@ -21,8 +21,8 @@ npm start
 
 ## Before launch
 
-- Connect a real booking URL and agency email in `components/site.tsx`. The current dialog prepares and copies an inquiry brief; it does not send information.
-- Add the Calendly scheduling URL and agency email. Founder names are Kevin Freeman (strategy) and Marcus Griffin (creative); confirm the role assignment before launch. No LinkedIn destination is configured.
+- Sales and booking buttons link to https://calendly.com/recurrmarketing. The link opens the Calendly profile; configure and publish your strategy-call event there.
+- Add the agency email. Founder names are Kevin Freeman (strategy) and Marcus Griffin (creative); confirm the role assignment before launch. No LinkedIn destination is configured.
 - Add verified founder experience and case studies when available. All creative and reporting examples are labeled illustrative.
 - Finalize the privacy policy for the chosen hosting, contact, and analytics providers before enabling data collection.
 - Set the production canonical URL and social sharing assets once the domain is chosen.
